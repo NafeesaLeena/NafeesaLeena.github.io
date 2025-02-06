@@ -241,3 +241,14 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+/* ScrollBar Design */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-colour);
+    width: 50px;
+}
