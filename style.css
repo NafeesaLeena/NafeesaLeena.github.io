@@ -63,6 +63,16 @@ header {
     margin-top: 10px; 
 }
 
+.navbar a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-colour);
+    margin-left: 4rem;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+}
+
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-colour);
