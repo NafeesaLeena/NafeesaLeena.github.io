@@ -199,3 +199,14 @@ span {
 .btn:hover {
     box-shadow: 0 0 1.6rem var(--main-colour);
 }
+
+/* Skills Section Code */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-colour);
+}
+
