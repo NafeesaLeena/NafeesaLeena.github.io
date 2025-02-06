@@ -32,6 +32,22 @@ section {
     padding: 10rem 9% 2rem;   
 }
 
+/* Header Section Code */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
 .logo {
     font-size: 3rem;
     font-weight: 800;
