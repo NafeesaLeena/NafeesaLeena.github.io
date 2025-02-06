@@ -19,12 +19,14 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {
     background: var(--bg-colour);
     color: var(--text-colour);
+    overflow-x: hidden;
 }
 
 section {
