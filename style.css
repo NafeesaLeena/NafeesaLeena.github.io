@@ -47,3 +47,12 @@ header {
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
+
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#a635fc, #fc030b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
