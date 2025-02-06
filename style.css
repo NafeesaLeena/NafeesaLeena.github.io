@@ -56,3 +56,13 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.navbar {
+    display: flex;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-colour);
+    border-bottom: 3px solid var(--main-colour);
+}
