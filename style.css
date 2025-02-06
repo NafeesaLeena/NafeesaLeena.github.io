@@ -110,6 +110,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: var(--second-bg-colour);
+    gap: 15rem;
 }
 
 .home-content h3 {
