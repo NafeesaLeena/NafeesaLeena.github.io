@@ -15,6 +15,7 @@
     --second-bg-colour: #0b0b17;
     --text-colour: #fff;
     --main-colour: #a635fc;
+    --footer-colour: #00000A;
 }
 
 html {
@@ -424,7 +425,7 @@ span {
 /* Contact Section Code */
 
 .contact {
-    background: var(--second-bg-colour);
+    background: var(--bg-colour);
 }
 
 .contact h2 {
@@ -451,7 +452,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-colour);
-    background: var(--bg-colour);
+    background: var(--second-bg-colour);
     border-radius: 0.8rem;
     border: 1px solid var(--main-colour);
     margin: 0.7rem 0;
@@ -465,4 +466,49 @@ span {
 
 .contact form .btn {
     margin-top: 2rem;
+}
+
+/* Footer Section Code */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: var(--footer-colour);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--main-colour);
+}
+
+.footer .social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-colour);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-colour);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.2) translateY(-8px);
+    background: var(--main-colour);
+    color: var(--text-colour);
+    box-shadow: 0 0 20px var(--main-colour);
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-colour);
 }
