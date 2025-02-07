@@ -252,3 +252,33 @@ span {
     background-color: var(--main-colour);
     width: 50px;
 }
+
+/* Portfolio Section Code */
+
+.portfolio{
+    background: var(--bg-colour);
+}
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+
+.row {
+    background: var(--second-bg-colour);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-colour);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.row img {
+    height: auto;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4rem;
+}
