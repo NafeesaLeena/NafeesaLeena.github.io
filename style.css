@@ -313,6 +313,11 @@ span {
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1.4;
+    color: var(--text-colour);
+}
+
+.row-link {
+    text-decoration: none;
 }
 
 .row:hover {
